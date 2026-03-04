@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design</title>
+  <style>
+    /* @media(min-width: 700px){
+      body{
+        background-color: lightblue;
+      }
+      h1{
+        text-align: center;
+        color: white;
+      }
+    }
+     @media(max-width: 699px){
+      body{
+        background-color: beige;
+      }
+    } */
+    /* .jamal{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      background-color: purple;
+
+    }
+    .jamal >div{
+      flex: 1 1 200px;
+      background-color: rgb(200, 32, 32);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+
+
+    } */
+     .grid {
+      display: grid;
+      gap: 20px;
+      padding: 20px;
+      background-color: black;
+      column-gap: 15px;
+      row-gap: 15px;
+      grid-template-columns:auto auto auto;
+    }
+    .grid_item{
+      background-color: white;
+      padding:  10px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 20px;}
+
+  </style>
+</head>
+<body>
+ <h1>Responsive Design Example</h1>
+ <div class="grid">
+    <!-- <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea <br>
+       sint quaerat quas iste cumque odit provident cum asperiores <br>
+        aliquam. Mollitia neque error <br>
+      beatae delectus tempore pariatur, hic quis fugiat corporis. <br>
+    </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea <br>
+        sint quaerat quas iste cumque odit provident cum asperiores <br>
+          aliquam. Mollitia neque error <br>
+        beatae delectus tempore pariatur, hic quis fugiat corporis. <br>
+        </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea <br>
+              sint quaerat quas iste cumque odit provident cum asperiores <br>
+                aliquam. Mollitia neque error <br>
+              beatae delectus tempore pariatur, hic quis fugiat corporis. <br>
+            </div>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea <br>
+                  sint quaerat quas iste cumque odit provident cum asperiores <br>
+                    aliquam. Mollitia neque error <br>
+                  beatae delectus tempore pariatur, hic quis fugiat corporis. <br>
+                </div> -->
+
+                <div class="grid_item"> Red</div>
+                <div class="grid_item"> Green</div>
+                <div class="grid_item"> Blue</div>
+                <div class="grid_item"> Yellow</div>
+                <div class="grid_item"> Orange</div>
+                <div class="grid_item"> Purple</div>
+                <div class="grid_item"> Pink</div>
+
+
+ </div>
+</body>
+</html>
