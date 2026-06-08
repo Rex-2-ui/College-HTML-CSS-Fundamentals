@@ -1,5 +1,36 @@
-.btn{
+/* .btn{
   background-color:  blue;
   color: white;
-  
+
+} */
+#countlabel {
+display: block;
+text-align: center;
+font-size: 10em;
+}
+#btnDiv {
+text-align: center;
+}
+.buttons {
+padding: 15px 20px;
+background-color: green;
+color: white;
+font-size: 24px;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.25s;
+}
+.buttons:hover{
+Background-color: blue;
+}
+body {
+font-family: verdana;
+text-align: center;
+}
+
+
+#roll {
+font-size: 3em;
+padding: 10px;
+border-radius: 10px;
 }
