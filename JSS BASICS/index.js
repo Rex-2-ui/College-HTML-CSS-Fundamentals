@@ -158,21 +158,62 @@
 //             console.log("You are not old enough to marry");
 //         }
 
-let myName = "   Linda  ";
-// Linda Amoako Banning;
-console.log(myName.charAt(3));
-console.log(myName.indexOf("a"));
-console.log(myName.lastIndexOf("a"));
-console.log(myName.length);
-console.log(myName.trim());
+//let myName = "   Linda  ";
+// // Linda Amoako Banning;
+// console.log(myName.charAt(3));
+// console.log(myName.indexOf("a"));
+// console.log(myName.lastIndexOf("a"));
+// console.log(myName.length);
+// console.log(myName.trim());
 
-//AND = &&
-//OR = ||
-//NOT = !
-let age = 20;
-let hasID = true;
-if (age >= 18 && hasID) {
-  console.log("You can enter the club");
-} else {
-  console.log("You cannot enter the club");
+// //AND = &&
+// //OR = ||
+// //NOT = !
+// let age = 20;
+// let hasID = true;
+// if (age >= 18 && hasID) {
+//   console.log("You can enter the club");
+// } else {
+//   console.log("You cannot enter the club");
+// }
+
+let Was = ["GHANA", "TOGO", "NIGER"];
+console.log(Was[2]);
+Was[2] = "Nigeria";
+console.log(Was);
+Was.push("Benin");
+console.log(Was); // add to end
+// unshift, add to begining
+Was.unshift("Gabon");
+console.log(Was);
+
+//use pop to remove lst item
+Was.pop();
+console.log(Was);
+Was.shift(); // Remove from the beginning
+console.log(Was);
+console.log(Was.length);
+
+//if -1 then missing item
+console.log(Was);
+console.log(Was.indexOf("GHANA"));
+Was.sort();
+console.log(Was);
+
+console.log(Was.sort().reverse());
+
+for (let i = 0; i < Was.length; i++) {
+  console.log(Was[i]);
 }
+// for ( let j = Was.length - 1; j >= 0; j--) {
+//   console.log(Was[j]);
+// } needs work
+
+for ( let ernes of Was){
+       console.log(ernes);
+
+}
+
+
+let numbers = [100, 13, 145, 87, 9, 87, 78]
+     console.log(numbers)
