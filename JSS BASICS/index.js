@@ -215,3 +215,9 @@ for (let ernes of Was) {
 
 let numbers = [100, 13, 145, 87, 9, 87, 78];
 console.log(numbers);
+
+
+//how to use hooks
+//Languages/ Frameworks
+//Api/routing and middle ....
+//Security configuration

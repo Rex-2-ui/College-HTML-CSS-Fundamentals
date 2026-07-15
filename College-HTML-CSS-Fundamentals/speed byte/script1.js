@@ -55,8 +55,4 @@ submitBtn.addEventListener("click", () => {
 });
 
 
-//how to use hooks
-//Languages/ Frameworks
-//Api/routing and middle ....
-//Security configuration
 
