@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Age Checker</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 400px; margin: 60px auto; text-align: center; }
+  input, button { font-size: 16px; padding: 8px; margin: 8px 0; width: 100%; box-sizing: border-box; }
+  button { cursor: pointer; }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  #message { margin-top: 20px; font-weight: bold; min-height: 24px; }
+  label { display: block; text-align: left; font-size: 14px; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+  <h2>Age Checker</h2>
+
+  <input type="number" id="ageInput" placeholder="Enter your age">
+
+  <label>
+    <input type="checkbox" id="agreeCheckbox">
+    I confirm this is my real age
+  </label>
+
+  <button id="submitBtn" disabled>Submit</button>
+
+  <p id="message"></p>
+
+  <script src="script1.js"></script>
+</body>
+</html>

@@ -205,15 +205,13 @@ console.log(Was.sort().reverse());
 for (let i = 0; i < Was.length; i++) {
   console.log(Was[i]);
 }
-// for ( let j = Was.length - 1; j >= 0; j--) {
-//   console.log(Was[j]);
-// } needs work
-
-for ( let ernes of Was){
-       console.log(ernes);
-
+for (let j = Was.length - 1; j >= 0; j--) {
+  console.log(Was[j]);
 }
 
+for (let ernes of Was) {
+  console.log(ernes);
+}
 
-let numbers = [100, 13, 145, 87, 9, 87, 78]
-     console.log(numbers)
+let numbers = [100, 13, 145, 87, 9, 87, 78];
+console.log(numbers);
