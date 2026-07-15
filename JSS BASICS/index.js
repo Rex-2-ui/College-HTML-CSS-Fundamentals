@@ -220,4 +220,19 @@ console.log(numbers);
 //how to use hooks
 //Languages/ Frameworks
 //Api/routing and middle ....
-//Security configuration
+//Security configuration0
+
+//http resquest
+//application logic
+//database
+//bussiness logic
+
+
+//DNS expansion--- convert url to ip address
+//TCP ---- Tranmission control protocol
+//TLS-- transport layer security --- Encrypts http to https
+//2 == successful
+//3 == resource
+//404 == error, not found
+//5 == server error
+//
